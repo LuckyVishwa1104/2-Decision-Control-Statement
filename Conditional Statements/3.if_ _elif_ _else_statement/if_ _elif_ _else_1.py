@@ -1,4 +1,5 @@
-#3. if_ _elif_ _else statement.
+#3. if_ _elif_ _else statement: it is an enhanced form of conditional statement
+# if the condition of If block is true then If block is executed, if it is false, it will go to elif conditon and check it if it is true then Elif block is executed otherwise else block is executed
 # there can be any no. of elif block and else is optional.
 '''elif = else if
 syntax:
@@ -21,6 +22,7 @@ elif a%2==1:
 # otherwise print else block.
 else:
 	print("Enter valid no.")
+	
 #2. positive, negative, zero no.
 print("positive, negative, zero no.")
 a=float(input("Enter no.: "))
