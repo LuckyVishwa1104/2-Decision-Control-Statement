@@ -8,6 +8,7 @@ while i<=n:
 	sum=sum+i
 	i=i+1
 print("Sum of first",n,"numbers is",sum)
+
 # calculating the average
 avg=sum/n
 print("average = ",avg)
@@ -16,6 +17,7 @@ print("average = ",avg)
 n=int(input("Enter no. : "))
 fac=1
 i=1
+
 # using while loop
 while i<=n:
 	fac=fac*i

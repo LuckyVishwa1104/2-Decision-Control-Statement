@@ -1,5 +1,6 @@
 #3. program to evaluate the arithmetic table of 2, 3, 4 and 5
 print("tables from 2 to 5")
+
 # table of 2.
 i=1  # initial value
 while i<=10:  # while loop with condition
@@ -8,6 +9,7 @@ while i<=10:  # while loop with condition
 	i=i+1  # increment
 print("end")
 print()
+
 # table of 3.
 i=1
 while i<=10:
@@ -16,6 +18,7 @@ while i<=10:
 	i=i+1
 print("end")
 print()
+
 # table of 4.
 i=1
 while i<=10:
@@ -24,6 +27,7 @@ while i<=10:
 	i=i+1
 print("end")
 print()
+
 # table of 5.
 i=1
 while i<=10:

@@ -1,4 +1,4 @@
-''' ITERATIVE or LOOPING statements 
+''' ITERATIVE or LOOPING statements : these are the statements which executes repeatedly.
 
 used for repeated execution of a block of code'''
 
