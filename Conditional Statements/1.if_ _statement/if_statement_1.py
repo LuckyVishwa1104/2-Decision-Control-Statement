@@ -1,7 +1,7 @@
-''' selection and conditional and branching statement.
+''' selection or conditional or branching statement - these are the condition controled statements.
+If the condition is true then only the statements will get executed otherwise it will move next construct of program
 
- 1.If statement
- true- if block ,  false- rest of code'''
+ 1.If statement - if the condition is true then If block will be executed other wise Else block is execcuted'''
 ''' syntax:
 	if (condition):
 		statement_1
@@ -10,21 +10,24 @@
 		statement_n
 	rest of the code
 '''
-# condition can be - coment,keyword, variables, all datatypes, input/output, expression.
+# condition can be - is an expression which may result in either true or false
 #example-1.
 if 5<10:
 	print("5 is less than 10")
+	
 #2. equal to/ not equal to.
 if 4==4:
 	print("both no. are equal")
 if 4 != 5:
 	print("4 is not equal to 5")
+
 #3. positive no.
 print(" positive and negative")
 a=int(input("enter integer value only: "))
 if a<0:
 	print(a,"is not positive no.")
 print(a,"is positive no.")
+
 #4. even no.
 print("even and odd")
 b=eval(input())
@@ -32,6 +35,7 @@ if b%2==0:
 	print(b,"is a even no.")
 if b%2==1:
 	print(b,"is a odd no.")
+
 #5. eligibility for voting
 print(" eligibility for voting")
 age=int(input("Enter your age : "))
