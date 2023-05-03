@@ -1,5 +1,5 @@
-#4. nestest conditional statements
-'''nested if , nested if_ _else , nested if_ _elid_ _else'''
+#4. nested conditional statements - it consist of contional statement within conditoinal statement
+'''nested if , nested if_ _else , nested if_ _elif_ _else'''
 '''syntax:
 	if (condition):
 		if (condition):
@@ -20,6 +20,7 @@ if a != 0:
 		print(a,"is negative number.")
 else:
 	print("entered number is zero.")
+	
 #2. user name and pasword.
 # enter the user name.
 un=input("Enter user name : ")

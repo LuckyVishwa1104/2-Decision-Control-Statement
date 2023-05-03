@@ -1,4 +1,4 @@
-# if - nested if_ _else.
+# if - nested if_ _else- if-else statement within if statement
 # enter the username and password.
 un=input("Enter user name : ")
 ps=input("Enter password : ")
