@@ -1,4 +1,5 @@
-#2. if _ _ _ else statement.
+#2. if _ _ _ else statement - It is a conditional statement with and additional block.
+# if the condition of If is true then only If-block is executed otherwise Else block is executed.
 '''syntax:
 	if (condition):
 		statement

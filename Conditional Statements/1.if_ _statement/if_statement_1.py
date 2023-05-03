@@ -1,7 +1,7 @@
 ''' selection or conditional or branching statement - these are the condition controled statements.
 If the condition is true then only the statements will get executed otherwise it will move next construct of program
 
- 1.If statement - if the condition is true then If block will be executed other wise Else block is execcuted'''
+ 1.If statement - if the condition is true then If block will be executed other wise rest of the code is executed is execcuted'''
 ''' syntax:
 	if (condition):
 		statement_1
@@ -14,7 +14,7 @@ If the condition is true then only the statements will get executed otherwise it
 #example-1.
 if 5<10:
 	print("5 is less than 10")
-	
+
 #2. equal to/ not equal to.
 if 4==4:
 	print("both no. are equal")
