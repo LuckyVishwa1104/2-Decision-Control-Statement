@@ -1,4 +1,4 @@
-# Pass - use to define empty block, it does nothing just continue current iteration
+#4] Pass - use to define empty block, it does nothing just continue current iteration
 # it can also be used outside the loop
 ''' Syntax:
 	loop(condition):
@@ -16,6 +16,7 @@ while i<=10:
 	print(i,"th iteration")
 	i=i+1
 print("execution terminated")
+
 #2. pass with for loop
 for i in range(1,11):
 	print("i =",i)

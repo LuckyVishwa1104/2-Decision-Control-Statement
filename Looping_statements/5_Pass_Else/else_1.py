@@ -1,4 +1,4 @@
-# Else - can be used with loop when it is not terminated by break.
+#3] Else - can be used with loop when it is not terminated by break.
 ''' Syntax:
 	  loop(condition):
 	  	staement-1
@@ -8,6 +8,7 @@
 	  	statement_
 	  	--- --- ---
 	  rest of code '''
+
 #1. else with while loop
 i=1
 # while loop
@@ -18,6 +19,7 @@ while i<=10:
 else:
 	print("else with while")
 print("finished")
+
 #2. else with for loop
 # for loop
 for i in range(1,11):

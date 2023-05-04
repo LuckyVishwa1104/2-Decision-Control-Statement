@@ -12,6 +12,7 @@ for i in range(1,11):
 # display the result
 print("=",fac)
 print("end")
+
 #4. pass with while loop
 # initial value
 sm=0
