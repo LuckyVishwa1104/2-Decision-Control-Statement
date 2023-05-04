@@ -15,9 +15,10 @@
 		increment/decrement
 	rest of the code'''
 	
-# program to find factorial of first n no.
+# program to find factorials of first n no.
 # input the value of n
 n=int(input("enter number : "))
+
 #1. for loop / for loop.
 print("1. for loop >> for loop")
 for i in range(1,n+1): # outer loop
@@ -26,6 +27,7 @@ for i in range(1,n+1): # outer loop
 		fac=fac*j
 	print(i,"! =",fac)
 print("end")
+
 #2. for loop / while loop
 print("2. for loop >> while loop")
 for i in range(1,n+1):  # outer loop
@@ -36,6 +38,7 @@ for i in range(1,n+1):  # outer loop
 		j=j+1
 	print(i,"! =",fac)
 print("end")
+
 #3. while loop / while loop
 print("3. while loop >> while loop")
 i=1
@@ -48,6 +51,7 @@ while i<=n:  # outer loop
 	print(i,"! =",fac)
 	i=i+1
 print("end")
+
 #4. while loop / for loop
 print("4. while loop >> for loop")
 i=1

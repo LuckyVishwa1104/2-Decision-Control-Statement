@@ -1,23 +1,24 @@
 #3. pattern to diaplay arrow heah symbol
+
 # input the value of n
 n=int(input("enter number : "))
+
 #1. using for loop
-# first loop
 # outer loop
 for i in range(1,n+1):
 	#.nested loop
 	for j in range(1,i+1):
 		print("©",end="")
 	print("")
-# second loop
+
 # outer loop
 for k in range(n,1,-1):
 	# nested loop
 	for l in range(k,1,-1):
 		print("©",end="")
 	print("")
+
 #2. using while loop.
-# fitst loop
 # outer loop
 a=1
 while a<=n:
@@ -28,7 +29,7 @@ while a<=n:
 		b=b+1
 	print("")
 	a=a+1
-# second loop
+
 # outer loop
 c=n
 while c>1:
@@ -39,9 +40,9 @@ while c>1:
 		d=d+1
 	print("")
 	c=c-1
+
 #3. using for / while loop
 # first loop
-# outer loop
 for d in range(1,n+1):
 	e=1
 	# nested loop
@@ -49,7 +50,7 @@ for d in range(1,n+1):
 		print("©",end="")
 		e=e+1
 	print("")
-# second loop
+
 # outer loop
 for f in range(n-1,0,-1):
 	# nested loop
@@ -58,8 +59,8 @@ for f in range(n-1,0,-1):
 		print("©",end="")
 		g=g+1
 	print("")
+
 #4. using while / for loop
-# first loop
 # outer loop
 h=1
 while h<=n:
@@ -68,7 +69,7 @@ while h<=n:
 		print("©",end="")
 	print("")
 	h=h+1
-# second loop
+
 # outer loop
 j=n
 while j>1:
