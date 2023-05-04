@@ -2,7 +2,7 @@
 
 used for repeated execution of a block of code'''
 
-'''#1. While loop
+'''#1. While loop - it continue to execcute util the conditoin become false.
 until true - while block , false - rest of code
 
 Syntex:

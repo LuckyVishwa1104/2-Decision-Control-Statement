@@ -1,4 +1,5 @@
 #2. For loop - repeat the loop for each value of sequence.
+# It will continue to execute uptil the last value of the sequence
 ''' Syntax:
 	
 	for (variable) in (range): # only this format is allowed
@@ -16,8 +17,7 @@ for i in range(1,6):
 		print("hello")
 print("end")
 
-# example 4
-2
+# example 2
 # program to print first 10 numbers
 for i in range(1,11):
 	print(i)
