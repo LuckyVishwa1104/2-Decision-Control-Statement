@@ -1,6 +1,7 @@
 #5. demonstration of continue 
 # initial value of i
 i=0
+
 while i<10: # while loop
 # incerment of i
 	i=i+1

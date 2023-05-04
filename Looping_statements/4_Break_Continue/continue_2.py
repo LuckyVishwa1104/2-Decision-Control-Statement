@@ -8,6 +8,7 @@ for i in range(1,n+1):
 	print(i,end="  ")
 print("")
 print("execution stopped")
+
 #4. program to display even no. 
 # input the value of n
 n=int(input("enter number : "))

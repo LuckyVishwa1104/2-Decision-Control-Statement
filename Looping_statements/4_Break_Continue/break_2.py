@@ -9,6 +9,7 @@ while i<=7:
 		break
 	print(i,"o'clock  Good Afternoon")
 	i=i+1
+	
 # example_4
 # break with for loop
 for j in range(1,11):

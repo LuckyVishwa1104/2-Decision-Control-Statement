@@ -1,11 +1,12 @@
-# Continue - use to break a particular iteration and then continue the loop
-# Continue can only be used inside loop 
+#2] Continue - use to break a particular iteration and then continue the loop
+# Continue can only be used inside loop or with conditional statement
 ''' Syntax :
 	   loop(condition):
 	   	statement_1
 	   	continue
 	   	statement_n
 	   rest of the program'''
+
 # example 1 - continue with while loop
 i=0
 while i<10:
@@ -14,6 +15,7 @@ while i<10:
 		continue  # continue with conditional
 	print(i)
 print("execution stopped")
+
 # example 2
 # continue with for loop
 for i in range(1,21):
